@@ -1,0 +1,14 @@
+name: three-gen-validation
+channels:
+  - defaults
+  - conda-forge
+  - nvidia
+  - pytorch
+
+dependencies:
+  - python=3.10
+  - pip
+  - cuda-toolkit=12.1.1
+  - cudnn=8.9
+  - pip:
+      - -r requirements.txt
